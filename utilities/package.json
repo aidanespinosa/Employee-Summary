@@ -1,0 +1,23 @@
+{
+  "name": "employee-summary",
+  "version": "1.0.0",
+  "description": "Generates forms that take information about companies employees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanespinosa/Employee-Summary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidanespinosa/Employee-Summary/issues"
+  },
+  "homepage": "https://github.com/aidanespinosa/Employee-Summary#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
