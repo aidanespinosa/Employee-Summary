@@ -10,10 +10,10 @@ class Manager extends Employee {
       email,
       office,
     });
-    this.name = name;
-    this.id = id;
-    this.email = email;
-    this.office = office;
+    // this.name = name;
+    // this.id = id;
+    // this.email = email;
+    // this.office = office;
   }
 }
 module.exports = Manager;

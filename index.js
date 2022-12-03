@@ -43,6 +43,18 @@ const questions = async () => {
     },
     {
       type: "input",
+      name: "id",
+      message: "What is your employee id?",
+      validate: (value) => {
+        if (value) {
+          return true;
+        } else {
+          return "Please input a value";
+        }
+      },
+    },
+    {
+      type: "input",
       name: "email",
       message: "What is your email?",
       validate: (value) => {
@@ -93,6 +105,18 @@ const questions = async () => {
     },
     {
       type: "input",
+      name: "id",
+      message: "What is your employee id?",
+      validate: (value) => {
+        if (value) {
+          return true;
+        } else {
+          return "Please input a value";
+        }
+      },
+    },
+    {
+      type: "input",
       name: "email",
       message: "What is your email?",
       validate: (value) => {
@@ -131,6 +155,18 @@ const questions = async () => {
       type: "input",
       name: "name",
       message: "What is your name:",
+      validate: (value) => {
+        if (value) {
+          return true;
+        } else {
+          return "Please input a value";
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "id",
+      message: "What is your employee id?",
       validate: (value) => {
         if (value) {
           return true;

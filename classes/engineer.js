@@ -10,10 +10,10 @@ class Engineer extends Employee {
       email,
       github,
     });
-    this.name = name;
-    this.id = id;
-    this.email = email;
-    this.github = github;
+    // this.name = name;
+    // this.id = id;
+    // this.email = email;
+    // this.github = github;
   }
 }
 module.exports = Engineer;

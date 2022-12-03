@@ -1,5 +1,4 @@
 const Employee = require("../classes/employee");
-// const axios = require("axios");
 const fs = require("fs");
 
 jest.mock("fs");
